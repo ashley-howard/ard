@@ -2,6 +2,8 @@ body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
 }
 
+$primary-colour: #2b97fb;
+
 .container {
     max-width: 700px;
     margin-left: auto;
@@ -30,17 +32,17 @@ h4 {
 }
 
 a {
-    background: #2b97fb;
+    background: $primary-colour;
     margin: 7px;
     padding: 20px;
     color: white;
     text-decoration: none;
-    border: 2px solid #2b97fb;
+    border: 2px solid $primary-colour;
 }
 
 a:hover,
 a:active {
-    color: #2b97fb;
+    color: $primary-colour;
     background: #fff;
     animation: fade 0.6s ease-in;
 }
